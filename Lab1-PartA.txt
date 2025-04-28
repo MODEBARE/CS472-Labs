@@ -1,0 +1,53 @@
+Block-level elements:
+(They start on a new line and take up the full width available.)
+
+<div>
+
+<p>
+
+<h1> to <h6>
+
+<hr>
+
+<section>
+
+<header>
+
+<footer>
+
+<nav>
+
+<aside>
+
+<article>
+
+<ol> / <li>
+
+<ul> / <li>
+
+<form>
+
+<textarea>
+
+Inline elements:
+(They do not start on a new line and only take up as much width as necessary.)
+
+<span>
+
+<br>
+
+<img>
+
+<a>
+
+<strong>
+
+<i>
+
+<input>
+
+<button>
+
+<select> / <option>
+
+<label>
