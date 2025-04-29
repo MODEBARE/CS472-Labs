@@ -1,0 +1,30 @@
+body {
+    background-color: #f0f0f0; /* Change background color */
+    font-family: Arial, sans-serif; /* Change font family for body */
+    font-size: 16px; /* Change font size for body */
+    text-align: center; /* Change text alignment */
+}
+
+h1 {
+    color: #2e8b57; /* Change color of h1 */
+    font-family: Georgia, serif; /* Change font family for h1 */
+    font-weight: bold; /* Change font weight for h1 */
+}
+
+h2 {
+    color: #483d8b; /* Change color of h2 */
+}
+
+p {
+    color: #333333; /* Change color of paragraphs */
+    font-family: Verdana, sans-serif; /* Change font family for paragraphs */
+}
+
+ul, ol {
+    font-style: italic; /* Change font style for lists */
+}
+
+img {
+    border: 2px solid #ccc; /* Add a border to images */
+    margin: 10px;
+}
