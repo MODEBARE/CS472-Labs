@@ -1,0 +1,12 @@
+//Fixed using bind:
+
+"use strict";
+let user = {
+  name: "Elijah",
+  sayHi: function () {
+    let result = prompt("Enter your name", "Guest");
+    console.log("Hi " + (result ?? this.name));
+  }
+};
+let hi = user.sayHi.bind(user);
+hi();

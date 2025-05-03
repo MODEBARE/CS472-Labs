@@ -1,0 +1,33 @@
+a. What will be printed by the code snippet:
+Output:
+Greetings, John
+hi undefined
+hello Smith
+b. Lexical Environment (LE) Listing:
+1.1. Global Execution Context (EC) Creation
+   - this: global object (window)
+   - LE: {
+       str: <uninitialized>,
+       user: <uninitialized>,
+       show: <uninitialized>
+     }
+   - TDZ: {str, user, show}
+2.2. Global Execution Context Execution
+   - this: global object (window)
+   - LE: {
+       str: 'Greetings, ',
+       user: { firstName: 'John', lastname: 'Smith', display: function },
+       show: function(msg)
+     }
+3.3. display Function Execution Context
+   - this: user
+   - outer: Global EC
+   - LE: {}
+4.4. show Function Execution Context (show('hi'))
+   - this: window
+   - outer: Global EC
+   - LE: { msg: 'hi' }
+5.5. show Function Execution Context (show.call(user, 'hello'))
+   - this: user
+   - outer: Global EC
+   - LE: { msg: 'hello' }
